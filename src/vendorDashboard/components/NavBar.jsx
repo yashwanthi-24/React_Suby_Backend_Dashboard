@@ -26,4 +26,4 @@ const Navbar = ({showLoginHandler,showRegisterHandler,showLogOut,logOutHandler})
   )
 }
 
-export default Navbar
+export default Navbar;
