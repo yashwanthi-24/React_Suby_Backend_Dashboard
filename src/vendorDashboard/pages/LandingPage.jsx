@@ -111,7 +111,7 @@ const LandingPage = () => {
   return (
     <>
       <section className= 'landingSection'>
-        <Navbar showLoginHandler={showLoginHandler} showRegisterHandler={showRegisterHandler} showLogOut={showLogOut} logOutHandler={logOutHandler} />
+        <NavBar showLoginHandler={showLoginHandler} showRegisterHandler={showRegisterHandler} showLogOut={showLogOut} logOutHandler={logOutHandler} />
         <div className = 'collectionSection'>
         <SideBar showFirmHandler={showFirmHandler} showProductHandler={showProductHandler} showAllProductsHandler= {showAllProductsHandler} showFirmTitle = {showFirmTitle}/>
         {showLogin && <Login showWelcomeHandler={showWelcomeHandler}/>}
